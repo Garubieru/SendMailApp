@@ -10,4 +10,5 @@
 
 1. Drag in the XAMP htdocs folder.
 2. Change whatever you want:
-  ![Settings](https://i.ibb.co/7KNxYmT/Settings.png)
+
+![Settings](https://i.ibb.co/7KNxYmT/Settings.png)
