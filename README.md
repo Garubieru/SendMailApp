@@ -1,7 +1,5 @@
 # SEND MAIL APP
 
-Project
-
 **DarkMode**
 ![Home Page Dark](https://i.ibb.co/dm4g7HF/Home.png)
 
@@ -10,7 +8,6 @@ Project
 
 # HOW TO RUN
 
-1: Drag in the XAMP htdocs folder.
-2: Change whatever you want
-
-![Settings](https://i.ibb.co/7KNxYmT/Settings.png)
+1. Drag in the XAMP htdocs folder.
+2. Change whatever you want:
+  ![Settings](https://i.ibb.co/7KNxYmT/Settings.png)
