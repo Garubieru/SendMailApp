@@ -1,0 +1,55 @@
+.page-header {
+  text-align: center;
+
+  transition: 0.2s;
+}
+
+.page-header .logo {
+  position: absolute;
+
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: header-animation 0.6s linear 1 normal forwards;
+}
+
+.page-header .logo-icon {
+  color: var(--color-primary);
+
+  transition: 0.2s;
+}
+
+.page-header .logo-icon:hover {
+  color: var(--color-primary-dark);
+}
+
+.page-header p {
+  color: var(--color-text-secondary);
+  margin-top: 1.2rem;
+
+  font-size: 1.1rem;
+}
+
+@keyframes header-animation {
+  from {
+    top: -20%;
+  }
+  to {
+    top: 17%;
+  }
+}
+
+@media (min-width: 900px) {
+  @keyframes header-animation {
+    from {
+      top: -20%;
+    }
+    to {
+      top: 14%;
+    }
+  }
+
+  .page-header p {
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+  }
+}

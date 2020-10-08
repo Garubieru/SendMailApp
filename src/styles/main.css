@@ -1,0 +1,84 @@
+:root {
+  --color-primary: #00ffc2;
+  --color-primary-dark: #00c89a;
+  --color-background: #0e0e0e;
+  --color-secondary: #424242;
+  --color-secondary-light: #646464;
+  --color-text: #fff;
+  --color-text-secondary: #dadada;
+  --color-danger: #dc3545;
+  --color-danger-dark: #da192c;
+  --color-success: #28a745;
+  --color-success-dark: #0aa12d;
+  font-size: 60%;
+
+  transition: 0.2s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  text-decoration: none;
+}
+
+body,
+html {
+  height: 100vh;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+
+  background: var(--color-background);
+}
+
+html,
+body,
+input,
+button,
+textarea {
+  font: 500 1.6rem Nunito, Arial;
+  color: var(--color-text);
+}
+
+.container {
+  width: 90vw;
+  height: 90vh;
+}
+
+footer {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+footer p {
+  margin-top: 2rem;
+}
+
+.light-mode {
+  filter: invert(100%);
+}
+
+.invert {
+  filter: invert(100%);
+}
+
+.text-danger {
+  color: var(--color-danger);
+}
+
+.text-success {
+  color: var(--color-success);
+}
+
+@media (min-width: 700px) {
+  root {
+    font-size: 62.5%;
+  }
+}

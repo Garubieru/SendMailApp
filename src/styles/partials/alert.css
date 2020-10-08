@@ -1,0 +1,56 @@
+.overlay {
+  width: 100vw;
+  height: 100vh;
+
+  position: absolute;
+
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.overlay .alert {
+  margin: 0 auto;
+
+  background: var(--color-background);
+
+  width: 50%;
+  padding: 2.4rem;
+
+  border-radius: 0.8rem;
+
+  animation: alert-animation 0.2s linear 1 normal forwards;
+}
+
+.overlay .alert h1 {
+  text-align: center;
+}
+
+.overlay .alert p {
+  text-align: center;
+  margin: 1.2rem 0;
+}
+
+.btn-back {
+  padding: 1.2rem 0.8rem;
+  width: 10rem;
+
+  font-size: 1.7rem;
+  font-weight: bold;
+
+  margin: 0 auto;
+}
+
+@keyframes alert-animation {
+  from {
+    display: none;
+  }
+  to {
+    margin-top: 3rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .overlay .alert {
+    width: 20%;
+    padding: 2.4rem;
+  }
+}
